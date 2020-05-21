@@ -4,7 +4,7 @@
   
 ## System Architecture Diagram
 
-![Twitter Architecture Diagram](/Twitter Architecture.jpg)
+![Twitter Architecture Diagram](https://github.com/RitwikJadhav/Prototype-of-Twitter/blob/master/Twitter%20Architecture.jpg)
 
   
 ## Technology Stack
