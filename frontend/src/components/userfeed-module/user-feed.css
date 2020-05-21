@@ -1,0 +1,30 @@
+.post-tweet{
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.post-tweet input[type="text"]{
+    border: none;
+}
+.post-tweet .font-icon{
+    font-size: 32px;
+}
+
+.user-feed {
+    height: 100%;
+    overflow: scroll;
+}
+
+.user-feed .error-msg {
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5%;
+    font-size: 16px;
+    vertical-align: text-bottom;
+}
+
+.user-feed .user-feed-section{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 740px;
+}

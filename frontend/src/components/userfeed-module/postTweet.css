@@ -1,0 +1,40 @@
+.post-tweet input[type="file"] {
+    display : none;
+}
+
+.post-tweet i
+{
+    width: 80px;
+    cursor: pointer;
+    color: #38A1F3;
+}
+
+.post-tweet .btn-primary {
+    background-color: #38A1F3;
+    border: 1px solid #E1f5fe;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+}
+.post-tweet .btn-primary:hover {
+    background-color: #38A1F3;
+}
+
+.post-tweet .tweet-button {
+    text-align: right;
+}
+.post-tweet .tweet-owner-image {
+    width : 200%;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-tweet .preview-image {
+    border-radius: 5%;
+    max-width: 75%;
+}
+
+.post-tweet .flex {
+    justify-content: space-between;
+}

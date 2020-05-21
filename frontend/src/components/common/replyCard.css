@@ -1,0 +1,24 @@
+.reply-card {
+    border-bottom: 0.5px solid gainsboro;
+}
+
+.reply-card .replier_image {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.reply-card .replier-name:hover {
+    color: black;
+}
+
+.reply-card .replier-name {
+    color: black;
+}
+
+.reply-card .replier-handle:hover {
+    color: black;
+}
+
+.reply-card .replier-handle {
+    color: black;
+}

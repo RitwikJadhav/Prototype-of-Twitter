@@ -1,0 +1,21 @@
+.tweet-actions .custom-color{
+    color: #e0245e;
+}
+
+.tweet-actions .handle-replies {
+    text-decoration: none;
+    color: black;
+    margin-right: auto;
+}
+
+.modal-reply .modal-owner-image {
+    width: 700%;
+    border-radius: 50%;
+}
+
+.tweet-actions .fa-comment {
+    margin-right: 5%;
+}
+.tweet-actions .cursor-pointer{
+    cursor: pointer;
+}

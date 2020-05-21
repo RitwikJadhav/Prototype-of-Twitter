@@ -1,0 +1,136 @@
+html,
+body,
+#root,
+.container-fluid{
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/* common styles */
+.content-title {
+  padding: 5px 18px;
+  border-bottom: 1px solid #C0C0C0;
+}
+button .btn-outline-primary{
+  color: #38A1F3;
+  border-color: #38A1F3;
+}
+.btn-outline-primary:hover :active {
+  background-color: #38A1F3;
+  border-color: #38A1F3;
+}
+
+.btn-primary {
+  background-color: #38A1F3;
+  border-color: #38A1F3;
+}
+.nav-tabs{
+  border-bottom: 1px solid #C0C0C0;
+}
+
+.tagline{
+  margin-bottom: 0;
+}
+
+.navlinkItem>a{
+  color: black;
+  font-size:18px;
+  font-weight: 600;
+}
+
+.navlinkItem>a:hover{
+  color: #38A1F3;
+  border: 1px solid #E1f5fe;
+  background-color: #E1f5fe;
+  text-decoration: none;
+}
+
+.navlinkItem>.active{
+  color: #38A1F3;
+  text-decoration: none;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+  
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+  
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+  
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+  
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.input-group>.input-group-prepend {
+  flex: 0 0 25%;
+}
+  
+.input-group .input-group-text {
+  width: 100%;
+}
+
+.page-item:hover,
+.page-item:focus {
+  text-decoration: none;
+  cursor: pointer;
+}

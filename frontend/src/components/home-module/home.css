@@ -1,0 +1,6 @@
+.home-page>.row{
+    height:100%
+}
+.lists-section,.profile-section,.messages-section,.bookmarks-section,.analytics-section,.user-feed,.explore-section{
+    height: 100%;
+}

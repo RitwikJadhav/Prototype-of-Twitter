@@ -1,0 +1,37 @@
+.bookmarks-section .clear-button {
+    color: rgba(29, 161, 242, 1.00);
+    vertical-align: text-bottom;
+    align-content: center;
+}
+
+.bookmarks-section .error-msg {
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5%;
+    font-size: 16px;
+    vertical-align: text-bottom;
+}
+
+.bookmarks-section .error-msg-2 {
+    color: rgb(87, 82, 82);
+    text-align: center;
+    font-weight: 400;
+    margin-top: 1%;
+    font-size: 13px;
+    vertical-align: text-bottom;
+}
+
+.bookmarks-section .bookmarks-headers {
+    padding-left: 2%;
+}
+
+.bookmarks-section .bookmarks-username {
+    color:rgb(87, 82, 82);
+    font-size: 13px;
+    padding-left: 2%;
+}
+
+.bookmarks-section .dropdown-toggle::after{
+    display: none;
+}

@@ -1,0 +1,69 @@
+.profile-section .error-msg {
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5%;
+    font-size: 16px;
+    vertical-align: text-bottom;
+}
+
+.profile-section .error-msg-2 {
+    color: rgb(87, 82, 82);
+    text-align: center;
+    font-weight: 400;
+    margin-top: 1%;
+    font-size: 13px;
+    vertical-align: text-bottom;
+}
+.profile-section .image-section{
+    margin-top: 15%
+}
+
+.profile-section .user_profile_image {
+    width: 25%;
+    height: 175px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+}
+
+.profile-section .user_profile_image:hover {
+    opacity: 0.7;
+}
+.profile-section .btn-outline-primary{
+    color: #38A1F3;
+    border-color: #38A1F3;
+}
+
+.profile-section .btn-outline-primary:hover {
+    background-color: #38A1F3;
+    border-color: #38A1F3;
+}
+  
+.profile-section .btn-primary {
+    background-color: #38A1F3;
+    border-color: #38A1F3;
+}
+
+.profile-section .btn {
+    border-radius: 2em;
+    font-weight: 800;
+}
+
+.modal-open .modal .modal-content .modal-body .user_profile_image {
+    width: 75%;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10%;
+}
+
+.profile-section .cover-image{
+    height: 250px;
+    background-color: #C0C0C0;
+    position: absolute;
+}
+
+.profile-section .follow_button {
+    margin-top: 16%;
+}

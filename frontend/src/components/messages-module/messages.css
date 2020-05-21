@@ -1,0 +1,57 @@
+.messages-section {
+    background-color: rgb(255, 255, 255);
+    margin-right: 10%;
+}
+
+.messages-section .error-msg {
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5%;
+    font-size: 16px;
+    vertical-align: text-bottom;
+}
+
+.messages-section .error-msg2 {
+    color: rgb(87, 82, 82);
+    text-align: center;
+    font-weight: 400;
+    margin-top: 1%;
+    font-size: 13px;
+    vertical-align: text-bottom;
+}
+
+
+.messages-section .error-msg-2 {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(101, 119, 134);;
+}
+
+.messages-section .links>a{
+    color: black;
+    text-decoration: none;
+}
+
+.messages-section .links>a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.messages-section .content-messages {
+    border-left: 1px;
+}
+
+.messages-section .content-root-message {
+    margin-bottom: 0px;
+}
+
+.messages-section .custom-icon {
+    color: #38A1F3;
+    margin: auto
+}
+
+.messages-section input[type="text"]:focus{
+    outline: 0;
+}

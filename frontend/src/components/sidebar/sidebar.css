@@ -1,0 +1,32 @@
+.sidebar .sidebarItem>a{
+    color: black;
+    font-size:20px;
+    font-weight: 600;
+  }
+.sidebar .sidebarItem>a:hover{
+    color: #38A1F3;
+    border: 1px solid #E1f5fe;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    text-decoration: none;
+    background-color: #E1f5fe;
+}
+.sidebar .sidebarItem>.active{
+    color: #38A1F3;
+    text-decoration: none;
+}
+.sidebar .twitter_icon {
+    width: 18%;
+}
+.sidebar .twitter_icon_link>a:hover {
+    color: #38A1F3;
+    border: 1px solid #E1f5fe;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    text-decoration: none;
+    background-color: #E1f5fe;
+}

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Profile Page correctly 1`] = `
+<div
+  className="row profile-section"
+>
+  <div
+    className="row"
+  >
+    <h2
+      className="error-msg col-sm-12"
+    >
+      You have not liked any tweets.
+    </h2>
+    <h2
+      className="error-msg-2 col-sm-12"
+    >
+      When you do, they will show up here.
+    </h2>
+  </div>
+</div>
+`;

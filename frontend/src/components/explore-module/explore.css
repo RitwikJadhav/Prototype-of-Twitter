@@ -1,0 +1,17 @@
+.explore-section .error-msg {
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5%;
+    font-size: 16px;
+    vertical-align: text-bottom;
+}
+
+.explore-section .error-msg-2 {
+    color: rgb(87, 82, 82);
+    text-align: center;
+    font-weight: 400;
+    margin-top: 1%;
+    font-size: 13px;
+    vertical-align: text-bottom;
+}

@@ -1,0 +1,11 @@
+.profile-details .followers-link {
+    color: black;
+}
+
+.profile-details .following-link {
+    color: black;
+}
+
+.profile-details .followers-link>a:hover .following-link>a:hover {
+    text-decoration: underline;
+}

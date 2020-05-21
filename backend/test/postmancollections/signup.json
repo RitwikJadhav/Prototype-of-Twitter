@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "58170760-7aba-41d3-a24b-fd598d5ef541",
+		"name": "twitter_signup",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3001/api/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email_id\" : \"vidita@gmail.com\", \n\t\"password\" : \"Vidita12\", \n\t\"first_name\": \"Vidita\",\n\t\"last_name\": \"Daga\",\n\t\"user_name\": \"viditadaga\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3001/api/signup",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
